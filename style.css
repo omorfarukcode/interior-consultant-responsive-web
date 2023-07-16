@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;700;800;900&display=swap');
+
+/* Common Style  */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-light-gray {
+    color: #727272;
+}
+
+.text-gray {
+    color: #424242;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #FF900E;
+    border: none;
+    padding: .9rem 1.4rem;
+    margin: 32px 0;
+    transition: .5s;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: #09a6ee;
+}
+
+/* header Style  */
+.header {
+    background: rgba(255, 144, 14, 0.10);
+}
+
+/* Navber Style  */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+    align-items: center;
+    padding: 18px 0;
+}
+
+nav h3 {
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.banner {
+    margin: 0 10%;
+    text-align: center;
+}
+
+.banner h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.banner p {
+    width: 70%;
+    margin: auto;
+    line-height: 25px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* Our Features Style  */
+
+.features-container {
+    display: flex;
+    margin: 50px 10%;
+    align-items: center;
+}
+
+.features-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2%;
+}
+
+.features-image img {
+    width: 250px;
+}
+
+.features-contant {
+    margin-left: 60px;
+}
+
+.features-contant h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.features-contant p {
+    line-height: 22px;
+}
+
+/* Enjoy Features Style  */
+.enjoy-features-container {
+    display: flex;
+    margin: 100px 10%;
+    gap: 50px;
+}
+
+.enjoy-features-card {
+    width: 50%;
+}
+
+.enjoy-features-card>h2 {
+    color: #131313;
+    width: 70%;
+    font-size: 2.4rem;
+    font-weight: 700;
+    border-left: 5px solid orange;
+    border-radius: 7px;
+    padding-left: 25px;
+}
+
+.enjoy-features-card>p {
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.enjoy-features-card .features-card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.09);
+    margin: 20px 0;
+    padding: 30px;
+}
+
+.enjoy-features-card .features-card h2 {
+    font-size: 1.1rem;
+    margin-bottom: .7rem;
+}
+
+.enjoy-features-card .features-card p {
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.enjoy-features-image {
+    width: 50%;
+}
+
+.enjoy-features-image img {
+    width: 100%;
+    height: 85%;
+}
+
+.experience-box {
+    background-color: #FF900E;
+    width: 200px;
+    border-radius: 4px;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: -6%;
+    left: 29%;
+}
+
+.experience-box h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.experience-box p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Some Facts Section Style  */
+.facts-section {
+    background-color: rgba(255, 144, 14, 0.10);
+    margin-bottom: 40px;
+}
+
+.facts-container {
+    margin: auto 10%;
+    padding: 50px 0;
+}
+
+.facts-container>h2 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.facts-container>p {
+    width: 47%;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.facts-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    margin-top: 5%;
+}
+
+.facts-box .box {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.facts-box .box h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: .5rem;
+}
+
+.facts-box .box p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: .1rem;
+}
+
+/* Sponspors Section Style  */
+.sponspors-section {
+    margin: 100px 10%;
+}
+
+.sponspors-section h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sponspors-section p {
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    line-height: 22px;
+}
+
+.sponspors-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 20px 0;
+    gap: 30px;
+}
+
+/* Footer section Style  */
+footer {
+    margin: 20px 10%;
+    background-color: rgba(255, 144, 14, 0.10);
+    padding: 20px 40px;
+}
+
+footer>p {
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+
+
+/* Media Query For Phone  */
+@media screen and (max-width:576px) {
+
+    nav,
+    .enjoy-features-container {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 20px 15px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .banner,
+    .features-contant,
+    .sponspors-section {
+        margin: 0;
+    }
+
+    .banner h2,
+    .banner p {
+        width: 90%;
+    }
+
+    .features-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .banner,
+    .features-image img,
+    .enjoy-features-card,
+    .enjoy-features-image,
+    .enjoy-features-image img,
+    .facts-container>p {
+        width: 100%;
+    }
+    .enjoy-features-card>h2{
+        width: 90%;
+    }
+
+    .experience-box {
+        margin-top: -15%;
+        margin-left: -15%;
+    }
+
+    .facts-box {
+        grid-template-columns: 1fr;
+    }
+
+    .sponspors-section p {
+        width: 80%;
+    }
+
+    .sponspors-section {
+        width: 100%;
+    }
+
+    .sponspors-images {
+        width: 60%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .sponspors-images img {
+        margin: 0 auto;
+    }
+
+    footer {
+        padding: 10px;
+        margin: 0%;
+    }
+}
+
+/* Media Query For Tablet  */
+
+@media screen and (min-width:576px) and (max-width:920px) {
+
+    nav,
+    .enjoy-features-container {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 20px 15px;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .banner h2,
+    .banner p,
+    .facts-container>p {
+        width: 90%;
+    }
+
+    .features-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .features-image img,
+    .enjoy-features-card,
+    .enjoy-features-image,
+    .enjoy-features-image img {
+        width: 100%;
+    }
+
+    .features-contant,
+    .sponspors-section {
+        margin: 0;
+    }
+
+    .experience-box {
+        margin-top: -10%;
+    }
+
+    .facts-box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sponspors-section p {
+        width: 70%;
+    }
+
+    .sponspors-section {
+        width: 100%;
+    }
+
+    .sponspors-images {
+        width: 80%;
+        margin: auto;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sponspors-images img {
+        margin: 0 auto;
+    }
+
+}
